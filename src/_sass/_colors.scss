@@ -79,6 +79,7 @@
     @if ($color == 'teal') { @return $teal-light; }
     @if ($color == 'grey') { @return $grey-200; }
   }
+  @return $black;
 }
 
 @function background($type) {
